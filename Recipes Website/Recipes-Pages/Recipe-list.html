@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../js/recipe-list-script.js" defer></script>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Recipes</h1>
+        </div>
+        <div class="container">
+            <!-- Images Filter Buttons Section -->
+            <div class="row mt-5" id="filter-buttons">
+              <div class="col-12">
+                <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+                <button class="btn mb-2 mx-1" data-filter="Breakfast">Breakfast</button>
+                <button class="btn mb-2 mx-1" data-filter="Lunch">Lunch</button>
+                <button class="btn mb-2 mx-1" data-filter="Dinner">Dinner</button>
+              </div>
+            </div>
+      
+            <!-- Filterable Images / Cards Section -->
+            <div class="grid-container" id="filterable-cards">
+                    <div class="recipe-cardlist" data-name="Lunch">
+                        <div class="image">
+                            <img src="../images/Dragon-Roll.jpeg" alt="Dragon Roll ドラゴンロール">
+                        </div>
+                        <div class="topic">
+                            <a href="Dragon-Roll.html">
+                                <h4 class="recipe-list-title">Dragon Roll <br> ドラゴンロール</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Japanese Food; Sushi</p>
+                            <h5>Cooking time: 1 hour</h5>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Dinner">
+                        <div class="image">
+                            <img src="../images/Chocolate-Layer-Cake.jpeg" alt="Chocolate Layer Cake">
+                        </div>
+                        <div class="topic">
+                            <a href="Chocolate-Layer-Cake.html">
+                                <h4 class="recipe-list-title">Chocolate Layer Cake</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Desserts</p>
+                            <h5>Cooking time: 2 hours</h5>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Lunch">
+                        <div class="image">
+                            <img src="../images/Shrimp-Poke-Bowl.jpg" alt="Shrimp Poke Bowl">
+                        </div>
+                        <div class="topic">
+                            <a href="Shrimp-Poke-Bowl.html">
+                                <h4 class="recipe-list-title">Shrimp Poke Bowl</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Hawaiian Food</p>
+                            <h5>Cooking time: 35 minutes</h5>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Dinner">
+                        <div class="image">
+                            <img src="../images/Uzbek-Plov.jpeg" alt="Uzbek Plov">
+                        </div>
+                        <div class="topic">
+                            <a href="Uzbek-Plov.html">
+                                <h4 class="recipe-list-title">Uzbek Plov (One Pot Recipe)</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Uzbek Food</p>
+                            <h5>Cooking time: 2 hours</h5>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Dinner">
+                        <div class="image">
+                            <img src="../images/Ukrainian-Red-Borscht-Soup.jpeg" alt="Ukrainian Red Borscht Soup">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Borsch.html">
+                                    <h4>Ukrainian Red Borscht Soup</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Ukrainian Food; Dinner</p>
+                                <h5>Cooking time: 1 hour 5 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Breakfast">
+                        <div class="image">
+                            <img src="../images/pancakes.jpg" alt="Pancakes">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Pancakes.html">
+                                    <h4>Pancakes</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Breakfast</p>
+                                <h5>Cooking time: 20 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Breakfast">
+                        <div class="image">
+                            <img src="../images/scrambled-eggs.jpg" alt="Extra-Creamy Scrambled Eggs">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Scrambled-eggs.html">
+                                    <h4>Extra-Creamy Scrambled Eggs</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Breakfast</p>
+                                <h5>Cooking time: 5 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Lunch">
+                        <div class="image">
+                            <img src="../images/Futomaki.jpg" alt="Futomaki 太巻き">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Futomaki.html">
+                                    <h4>Futomaki 太巻き</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Japanese Food; Sushi</p>
+                                <h5>Cooking time: 1 hour 5 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Lunch">
+                        <div class="image">
+                            <img src="../images/Spaghetti-Carbonara.jpg" alt="Spaghetti Carbonara">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Spaghetti-Carbonara.html">
+                                    <h4>Spaghetti Carbonara</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Italian Food; Pasta</p>
+                                <h5>Cooking time: 30 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Dinner">
+                        <div class="image">
+                            <img src="../images/Teriyaki-Salmon.jpg" alt="Teriyaki Salmon 鮭の照り焼き">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Teriyaki-Salmon.html">
+                                    <h4>Teriyaki Salmon 鮭の照り焼き</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Japanese Food; Dinner</p>
+                                <h5>Cooking time: 40 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist" data-name="Lunch">
+                        <div class="image">
+                            <img src="../images/Smoked-Salmon-Carpaccio.jpg" alt="Smoked Salmon Carpaccio">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Smoked-Salmon-Carpaccio.html">
+                                    <h4>Smoked Salmon Carpaccio</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Main Dishes; Dinner</p>
+                                <h5>Cooking time: 30 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist"data-name="Dinner">
+                        <div class="image">
+                            <img src="../images/Navy-Pasta.jpg" alt="Russian Navy Style Pasta">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Navy-pasta.html">
+                                    <h4>Russian Navy Style Pasta</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Main Dishes; Dinner</p>
+                                <h5>Cooking time: 30 minutes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist">
+                        <div class="image">
+                            <img src="../images/California-Roll.jpg" alt="California Roll カリフォルニアロール">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="California-Roll.html">
+                                    <h4>California Roll</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Japanese Food; Sushi</p>
+                                <h5>Cooking time: 1,5 hours</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist">
+                        <div class="image">
+                            <img src="../images/Hosomaki.jpg" alt="Hosomaki 細巻き">
+                        </div>
+                        <div class="card-text">
+                            <div class="topic">
+                                <a href="Hosomaki.html">
+                                    <h4>Hosomaki <br> 細巻き</h4>
+                                </a>        
+                            </div>
+                            <div class="description">
+                                <p>Japanese Food; Sushi</p>
+                                <h5>Cooking time: 1 hour</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist">
+                        <div class="image">
+                            <img src="../images/Cornbread-Stuffing.jpeg" alt="Cornbread Stuffing With
+                            Esquites">    
+                        </div>
+                        <div class="topic">
+                            <a href="Cornbread-Stuffing.html">
+                                <h4>Cornbread Stuffing</h4>
+                            </a>    
+                        </div>
+                        <div class="description">
+                            <p>Main Dishes</p>
+                            <h5>Cooking time: 45 minutes</h5>    
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist">
+                        <div class="image">
+                            <img src="../images/Make-Ahead-Roast-Turkey.jpeg" alt="Make-Ahead Roast Turkey">
+                        </div>
+                        <div class="topic">
+                            <a href="Make-Ahead-Roast-Turkey.html">
+                                <h4 class="recipe-list-title">Make-Ahead Roast Turkey</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Main Dishes; Dinner</p>
+                            <h5>Cooking time: 45 minutes</h5>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist">
+                        <div class="image">
+                            <img src="../images/Coconut-Caramel-Tart.jpeg" alt="Coconut Caramel Tart">
+                        </div>
+                        <div class="topic">
+                            <a href="Coconut-Caramel-Tart.html">
+                                <h4 class="recipe-list-title">Coconut Caramel Tart</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Desserts</p>
+                            <h5>Cooking time: 45 minutes</h5>
+                        </div>
+                    </div>
+                    <div class="recipe-cardlist">
+                        <div class="image">
+                            <img src="../images/Chocolate-Guinness-Cake.jpg" alt="Chocolate Guinness Cake">
+                        </div>
+                        <div class="topic">
+                            <a href="Chocolate-Guinness-Cake.html">
+                                <h4 class="recipe-list-title">Chocolate Guinness Cake</h4>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p class="food-list-desc">Desserts</p>
+                            <h5>Cooking time: 45 minutes</h5>
+                        </div>
+                    </div>
+            </div>      
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+   
+   <script src="../js/recipe-list-script.js"></script>
+</body>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Main-dishes-section.html">
+                    <h1>Main Dishes</h1>
+                </a>
+            <a href="Navy-pasta.html">
+                <h2>Russian Navy Style Pasta</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/navy-style-pasta.jpg" alt="Russian Navy Style Pasta">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 40 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>The texture of this oil-based chocolate cake strikes an ideal balance between dense and fudgy and light and fluffy. It’s ultratender thanks to cake flour. The frosting, a variation on German buttercream, uses a chocolate pudding base whipped with butter to create a complement to the cake that’s both rich and airy.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 6-8 servings</h2>
+                    <li>1 16 oz pack of vermicelli or thin spaghetti pasta</li>
+                    <li>2–3 tbsp cooking fat, I used tallow</li>
+                    <li>1 lbs ground beef</li>
+                    <li>1 very large onion, preferably sweet variety, such as Vidalia, finely chopped</li>
+                    <li>A few sprigs of thyme</li>
+                    <li>1/2 tsp ground black pepper</li>
+                    <li>1 tsp salt</li>
+                    <li>1/2 tsp paprika (optional)</li>
+                    <li>1/2 tsp dry basil leaves (optional)</li>
+                    <li>2 oz Parmesano Reggiano or similar hard well-aged cheese, grated</li>
+                    <li>Fresh parsley to garnish</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Cook pasta according to instructions in lightly salted water with a few tbsp of olive oil added to prevent sticking. Drain and set aside.</p>
+                <li>Step 2</li>
+                <p>While pasta is cooking, prepare the meat. Heat the cooking fat in a large skillet, over medium-high heat.</p>
+                <li>Step 3</li>
+                <p>Add the finely chopped onion, and saute for a few minutes, until onion becomes translucent and very fragrant.</p>
+                <li>Step 4</li>
+                <p>Add the ground meat, stir well to incorporate onions throughout, breaking the meat apart with a spatula.</p>
+                <li>Step 5</li>
+                <p>Add thyme, salt and pepper, paprika and whatever herbs you desire.</p>
+                <li>Step 6</li>
+                <p>Saute the meat over medium-high heat, until it’s nicely browned and no longer juicy. We want an almost dry version here. It may take, depending on your onions and meat qualities, sometime between 10 and 15 minutes.</p>
+                <li>Step 7</li>
+                <p>Taste the meat and adjust seasoning if necessary. Remove the thyme sprigs.</p>
+                <li>Step 8</li>
+                <p>Transfer the cooked meat in a processor and mince until smooth.</p>
+                <li>Step 9</li>
+                <p>Combine drained pasta, meat sauce, grated cheese and fresh chopped parsley in a pot where pasta was cooking. Mix very well, working the meat into the pasta. It will seem at first like combining them is impossible, but it will work, trust me. Add a tablespoon or two of olive oil if needed.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

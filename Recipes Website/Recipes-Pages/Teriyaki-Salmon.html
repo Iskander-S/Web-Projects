@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Dinner-section.html">
+                    <h1>Dinner</h1>
+                </a>
+            <a href="Teriyaki-Salmon.html">
+                <h2>Teriyaki Salmon <br>鮭の照り焼き</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Teriyaki-Salmon.jpg" alt="Teriyaki Salmon">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 40 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Growing up in Japan, I enjoyed eating a variety of fish, with salmon being one of the most readily available option in our household. It’s a great source of protein and healthy Omega-3 fatty acids in our diet. Today, I’m going to share with you an authentic Teriyaki Salmon recipe and illustrate how the Japanese prepare it at home.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>For the Teriyaki Sauce</h2>
+                    <li>1 Tbsp sake (or substitute Chinese rice wine, dry sherry, or water)</li>
+                    <li>1 Tbsp mirin (or substitute 1 Tbsp sake/water + 1 tsp sugar)</li>
+                    <li>2 Tbsp soy sauce</li>
+                    <li>1 Tbsp sugar</li>
+                    <h2>For the Salmon</h2>
+                    <li>2 skin-on salmon fillets (¾ lb, 340 g; ¾ inch (2 cm) thick)</li>
+                    <li>¼ tsp Diamond Crystal kosher salt</li>
+                    <li>⅛ tsp freshly ground black pepper</li>
+                    <li>1 Tbsp all-purpose flour (plain flour) (use cornstarch or potato starch for gluten-free)</li>
+                    <li>½ Tbsp neutral oil (for cooking)</li>
+                    <li>1 Tbsp unsalted butter (for cooking)</li>
+                    <li>1 Tbsp sake (for steaming; can substitute Chinese rice wine, dry sherry, or water)</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Heat oven to 200C/180C fan/gas 6 and put the skinless salmon fillets in a shallow baking dish.</p>
+                <li>Step 2</li>
+                <p>Mix the sweet chilli sauce, honey, sesame oil, mirin or dry sherry, soy sauce and finely grated ginger in a small bowl and pour over the salmon so the fillets are completely covered. Bake for 10 mins.</p>
+                <li>Step 3</li>
+                <p>Meanwhile, cut a slice across the base of the pak choi so the leaves separate.</p>
+                <li>Step 4</li>
+                <p>Heat the vegetable oil and sesame oil in a wok, add the grated garlic cloves and stir-fry briefly to soften.</p>
+                <li>Step 5</li>
+                <p>Add the pak choi and fry until the leaves start to wilt. Pour over the or vegetable stock, tightly cover the pan and allow to cook for 5 mins – you're aiming for the stems to be tender but still have a bit of bite.</p>
+                <li>Step 6</li>
+                <p>Serve the pak choi in shallow bowls, top with the salmon and spoon over the juices. Scatter with the toasted sesame seeds and serve with brown rice or noodles, if you like.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+   
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

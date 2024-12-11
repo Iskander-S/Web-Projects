@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Main-dishes-section.html">
+                    <h1>Main Dishes</h1>
+                </a>
+            <a href="Smoked-Salmon-Carpaccio.html">
+                <h2>Smoked Salmon Carpaccio</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Smoked-Salmon-Carpaccio.jpg" alt="Smoked Salmon Carpaccio">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 30 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Carpaccio is a dish that originated in Veneto, Italy. The original preparation consisted of thinly sliced raw beef slices served with lemon juice, olive oil and shaved parmesan. The term carpaccio has later expanded to include all sorts of raw meat or fish preparations where the toppings or dressing on top consists of some sort of variation of lemon juice and olive oil. </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>For the Dressing:</h2>
+                    <li>1 small shallot, halved lengthwise and thinly sliced into half moons</li>
+                    <li>1 clove garlic, minced</li>
+                    <li>¼ cup good extra virgin olive oil</li>
+                    <li>1 teaspoon grainy Dijon mustard</li>
+                    <li>1 tablespoon fresh lemon juice</li>
+                    <h2>For the Crispy Capers:</h2>
+                    <li>2 tablespoons drained capers</li>
+                    <li>1 teaspoon cassava flour (regular flour works too)</li>
+                    <li>2 tablespoons extra virgin olive oil</li>
+                    <h2>For the Salmon:</h2>
+                    <li>½ pound center-cut smoked Atlantic salmon (I get mine from the deli at Central Market)</li>
+                    <li>1 tablespoon loosely chopped fresh dill (or more to taste)</li>
+                    <li>Freshly cracked black pepper for garnish</li>
+                    <li>Crostinis for serving</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>FOR THE DRESSING</li>
+                <p>In a bowl, combine all the dressing ingredients and whisk until well combined. Set aside while you prepare the capers.</p>
+                <li>FOR THE CRISPY CAPERS</li>
+                <p>In a small bowl, toss the drained capers in the cassava flour until evenly coated.</p>
+                <p>Heat a small nonstick skillet over medium heat with olive oil. When the skillet is hot, add the capers to the skillet and cook until golden brown and crisp, about 3 minutes, tossing half way through. Transfer the capers to a paper towel lined plate and let cool.</p>
+                <li>FOR THE SMOKED SALMON</li>
+                <p>Cut the smoked salmon into 2-inch pieces and arrange on a large plate in a single layer.</p>
+                <p>Spoon the dressing over the salmon evenly. Next, top with crispy capers. Lastly, finish the dish with fresh dill and cracked pepper. Serve alongside crostini.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

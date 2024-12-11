@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Pasta-section.html">
+                <h1>Pasta</h1>
+            </a>
+            <a href="Pasta-Alla-Norma.html">
+                <h2>Pasta Alla Norma</h2>
+            </a>
+            <p>Updated 30 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Pasta-Alla-Norma.jpg" alt="Pasta Alla Norma">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 45 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>This traditional Sicilian pasta dish of sautéed eggplant tossed with tomato sauce and topped with ricotta salata makes for a satisfying vegetarian dinner, and it can be thrown together in under an hour.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 4 to 6 servings</h2>
+                    <li>1½ pounds eggplant</li>
+                    <li>Olive oil as needed (at least ½ cup)</li>
+                    <li>Salt and pepper</li>
+                    <li>1 tablespoon chopped garlic</li>
+                    <li>3 or 4 dried chiles</li>
+                    <li>1½ pounds tomatoes, chopped (canned are fine; about 1 can)</li>
+                    <li>1 teaspoon good dried oregano, or 1 tablespoon fresh</li>
+                    <li>1 pound long pasta</li>
+                    <li>½ cup chopped parsley or basil</li>
+                    <li>½ cup grated ricotta salata (or in a pinch, pecorino Romano)</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Slice the eggplant about ½ inch thick. Cook in abundant olive oil, without crowding, sprinkling with salt and adding more oil as needed. You will undoubtedly have to cook in batches; take your time and cook until the eggplant is nicely browned and soft. Remove to a plate; do not drain on paper towels. Meanwhile, put a large pot of water to boil and salt it.</p>
+                <li>Step 2</li>
+                <p>At the end of the cooking the eggplant, the pan will ideally have a couple of tablespoons of oil left. If there’s more or less, drain some off or add a bit. Turn the heat to medium, add the garlic and chiles, and cook until the garlic colors a little bit. Add the tomatoes and oregano, along with some salt and pepper; cook until saucy but not too dry, stirring occasionally.</p>
+                <li>Step 3</li>
+                <p>Cook the pasta until tender but not mushy. While it’s cooking, cut the eggplant into strips and reheat for a minute in the tomato sauce. Drain the pasta and toss it with the tomato sauce and the eggplant. Taste and adjust the seasoning, then top with the parsley or basil and grated cheese and serve.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

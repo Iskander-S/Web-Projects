@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Pasta-section.html">
+                <h1>Pasta</h1>
+            </a>
+            <a href="Pasta-Alla-Vodka.html">
+                <h2>Pasta Alla Vodka</h2>
+            </a>
+            <p>Updated 30 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Pasta Alla Vodka .jpg" alt="Pasta Alla Vodka">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 30 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>There’s no need to order takeout from your neighborhood restaurant when this beloved, easy-to-assemble Italian-American classic gets dinner on the table in no time. Adding pancetta brings a salty smokiness, but if you leave it out, you’re still in for a quick and flavorful dish. If you’re feeling ambitious, the pasta is delightful with Caesar salad or garlic bread, but it’s also satisfying enough to take centerstage. Put on some Puccini, open up a bottle of red and you’re guaranteed a more relaxed dining experience than the one you might get at the local red-and-white checkered-tablecloth joint.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 4 to 6 servings</h2>
+                    <li>Kosher salt</li>
+                    <li>1 pound rigatoni or penne pasta</li>
+                    <li>2 tablespoons olive oil</li>
+                    <li>4 ounces diced pancetta, optional</li>
+                    <li>1 medium yellow onion, finely chopped</li>
+                    <li>2 garlic cloves, finely chopped</li>
+                    <li>½ teaspoon red-pepper flakes</li>
+                    <li>¾ cup vodka</li>
+                    <li>1 (28-ounce) can crushed tomatoes</li>
+                    <li>Freshly ground black pepper</li>
+                    <li>¾ cup heavy cream</li>
+                    <li>¼ cup grated Grana Padano or Parmesan cheese, plus more for serving</li>
+                    <li>1 tablespoon roughly chopped fresh oregano</li>
+                    <li>2 tablespoons roughly chopped Italian parsley</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Bring a large pot of salted water to a boil (2 heaping tablespoons kosher salt to about 7 quarts water). Add the pasta and cook according to package instructions until al dente.</p>
+                <li>Step 2</li>
+                <p>Meanwhile, prepare the sauce: Heat the oil in a deep 12-inch skillet or pot over medium. Add the pancetta, if using, and fry until crispy, stirring occasionally, 3 to 5 minutes. Add the onion, garlic and red-pepper flakes and cook, stirring occasionally, until onion is translucent, about 3 minutes. Turn the heat to medium-low, add the vodka and cook until reduced by half, 2 to 3 minutes.</p>
+                <li>Step 3</li>
+                <p>Stir in the tomatoes and then fill the can halfway with water and swish it around to loosen up any leftover tomatoes; add a quarter to half of the water to the pan. Simmer until the sauce begins to thicken, about 10 minutes, and season with salt and pepper. If you prefer your sauce a little looser, go ahead and add the remaining water and simmer 2 to 3 minutes more. Reduce heat to low, add the cream and cook, stirring, until the sauce becomes an even pinkish-rust color, about 1 minute.</p>
+                <li>Step 4</li>
+                <p>Stir in the cooked pasta and ¼ cup cheese; toss to coat. Season to taste with salt and pepper. Divide among bowls, top with additional cheese, if desired, and sprinkle with the oregano and parsley.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

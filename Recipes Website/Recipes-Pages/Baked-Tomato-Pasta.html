@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Main-dishes-section.html">
+                <h1>Main Dishes</h1>
+            </a>
+            <a href="Baked-Tomato-Pasta.html">
+                <h2>Baked Tomato Pasta </h2>
+            </a>
+            <p>Updated 30 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Slider/Baked-Tomato-Pasta.jpg" alt="Baked Tomato Pasta With Harissa and Halloumi">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 1,5 hours</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Keeping a jar of store-bought pasta sauce in your pantry pays high dividends in this five-ingredient recipe. Jarred pasta sauce is ripe for enhancement; here, a confident amount of harissa injects not only spice, but also a deep smoky, savory tang. This is a versatile and adaptable weeknight baked pasta: You can experiment with different flavors of sauce to achieve a different finish; try vodka sauce for a creamier finish or arrabbiata for something spicier. Grating the halloumi allows the firm, salty cheese to melt evenly through the pasta. A hefty amount of dill brings much needed lightness to this dish, but you could substitute parsley or chives.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 4-6 servings</h2>
+                    <li>Salt</li>
+                    <li>1 pound penne, fusilli, farfalle or other shaped pasta</li>
+                    <li>1 (24-ounce) jar marinara sauce</li>
+                    <li>3 tablespoons harissa paste</li>
+                    <li>8 ounces halloumi (or feta), coarsely grated</li>
+                    <li>1 cup chopped fresh dill (leaves and stalks)</li>
+                    <li>Extra-virgin olive oil, for serving</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Heat the oven to 425 degrees.</p>
+                <li>Step 2</li>
+                <p>Bring a large pot of salted water to a boil. Add the pasta and cook for 2 minutes less than the minimum cooking time stated on the package. (For example, if the recommended cooking time is 10 to 12 minutes, cook it for 8 minutes.) Reserve 1 cup of the pasta cooking water then drain the pasta.</p>
+                <li>Step 3</li>
+                <p>Add the marinara sauce, harissa and reserved pasta cooking water to the empty pot and stir to combine. Add the pasta, ⅔ of the halloumi and ¾ of the dill; stir to coat the pasta well. Transfer to a large, 8-by-12-inch baking dish and spread in an even layer.</p>
+                <li>Step 4</li>
+                <p>Top with the remaining halloumi and bake until the sauce is bubbling around the sides and the cheese is melted and golden, 15 to 20 minutes.</p>
+                <li>Step 5</li>
+                <p>To serve, drizzle with olive oil and top with the remaining dill.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

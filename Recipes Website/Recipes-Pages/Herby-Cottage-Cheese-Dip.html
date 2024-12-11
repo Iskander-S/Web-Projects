@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Main-dishes-section.html">
+                <h1>Main Dishes</h1>
+            </a>
+            <a href="Herby-Cottage-Cheese-Dip.html">
+                <h2>Herby Cottage Cheese Dip</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 30 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Slider/Herby-Cottage-Cheese-Dip.png" alt="Herby Cottage Cheese Dip">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 1,5 hours</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Cottage cheese provides a rich and creamy base for this herb-packed dip that makes a perfect appetizer, snack or light lunch along with crudités and bread or crackers. A handful of browned onions give the dip a depth of flavor more impressive than the work it took to achieve it. Salt levels vary quite a bit from brand to brand of cottage cheese, so make sure to taste as you go and adjust the salt and pepper to your liking.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 10 servings (2½ cups)</h2>
+                    <li>2 tablespoons olive oil</li>
+                    <li>1 cup chopped yellow onion (about 1 small onion)</li>
+                    <li>Salt and black pepper</li>
+                    <li>1 pint full-fat cottage cheese</li>
+                    <li>⅓ cup roughly chopped fresh basil</li>
+                    <li>⅓ cup roughly chopped fresh parsley</li>
+                    <li>¼ cup thinly sliced chives or scallions, plus more for garnishing</li>
+                    <li>2 tablespoons freshly squeezed lemon juice (from 1 large lemon)</li>
+                    <li>Chips, crackers, bread or crisp veggies, for serving</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Place a medium skillet over medium heat. Add the olive oil and onion, and sprinkle with salt. Cook the onion, stirring occasionally, until golden brown, 7 to 10 minutes. Transfer to a bowl and cool to room temperature, about 15 minutes.</p>
+                <li>Step 2</li>
+                <p>Add the cooled onions, cottage cheese, basil, parsley, chives and lemon juice to a food processor or blender. Blend until smooth, about 3 minutes, scraping down the sides as necessary. Taste and season with salt and pepper as desired.</p>
+                <li>Step 3</li>
+                <p>Cover and chill in the refrigerator for at least 30 minutes before serving topped with a sprinkle of chives and a few cracks of black pepper. Serve with chips, crackers, bread or crisp veggies.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

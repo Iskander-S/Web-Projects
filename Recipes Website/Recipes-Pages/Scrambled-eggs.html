@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Scrambled-eggs.html">
+                <h2>Extra-Creamy Scrambled Eggs</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/scrambled-eggs.jpg" alt="Extra-Creamy Scrambled Eggs">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 5 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Adding a small amount of a starchy slurry to scrambled eggs — a technique learned from Mandy Lee of the food blog Lady & Pups — prevents them from setting up too firmly, resulting in eggs that stay tender and moist, whether you like them soft-, medium- or hard-scrambled. </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 2 servings</h2>
+                    <li>4 large eggs</li>
+                    <li>2 tablespoons heavy cream</li>
+                    <li>1 tablespoon unsalted butter</li>
+                    <li>Salt to taste</li>
+                    <li>Freshly ground black pepper to taste</li>
+                    <li>Chopped fresh herbs (optional, such as chives or parsley)</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Crack the eggs into a bowl and whisk them together with the heavy cream until smooth and well combined.</p>
+                <li>Step 2</li>
+                <p>Season the egg mixture with a pinch of salt and pepper.</p>
+                <li>Step 3</li>
+                <p>Heat a non-stick skillet over low heat and add the butter. Let it melt slowly, coating the skillet evenly.</p>
+                <li>Step 4</li>
+                <p>Pour the egg mixture into the skillet. Allow it to sit undisturbed for a few seconds to begin setting.</p>
+                <li>Step 5</li>
+                <p>Using a spatula, gently stir the eggs in a figure-eight motion, scraping the bottom and sides of the skillet.</p>
+                <li>Step 6</li>
+                <p>Continue cooking and stirring over low heat until the eggs are just set but still slightly runny and creamy. Be careful not to overcook.</p>
+                <li>Step 7</li>
+                <p>Remove the skillet from the heat as the eggs will continue to cook from residual heat.</p>
+                <li>Step 8</li>
+                <p>Serve immediately, garnished with fresh herbs if desired. Pair with toast or your favorite breakfast sides.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

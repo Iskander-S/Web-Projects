@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Main-dishes-section.html">
+                    <h1>Main Dishes</h1>
+                </a>
+            <a href="Shrimp-Poke-Bowl.html">
+                <h2>Shrimp Poke Bow</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Shrimp-Poke-Bowl.jpg" alt="Shrimp Poke Bow">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 40 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Poke bowl is a tasty and healthy dish that came to us from Hawaii. It’s the perfect combination of fresh ingredients, seafood and side dishes that allow you to experiment with different flavors and textures. It’s a perfect choice for lunch or dinner, and it’s definitely worth making.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Shrimp</h2>
+                    <li>1 lb shrimp, peeled and deveined</li>
+                    <li>1/3 cup mayo</li>
+                    <li>2 tablespoons sweet chili sauce</li>
+                    <li>2 teaspoons sriracha</li>
+                    <li>1/2 lime, juiced</li>
+                    <li>Pinch of salt</li>
+                    <h2>Sushi Rice</h2>
+                    <li>2 cups sushi rice</li>
+                    <li>2 cups water</li>
+                    <li>3 tablespoons mirin</li>
+                    <li>2 teaspoons sugar</li>
+                    <li>3/4 teaspoons salt</li>
+                    <h2>Assembly</h2>
+                    <li>1 cup shelled edamame, tossed with a splash of toasted sesame oil and pinch of salt</li>
+                    <li>1 cucumber, thinly sliced and tossed with a splash of mirin</li>
+                    <li>1 large carrot, julienned</li>
+                    <li>1/2 bunch green onions, chopped</li>
+                    <li>1 avocado, cubed</li>
+                    <li>Crispy fried onions</li>
+                    <li>Crushed peanuts</li>
+                    <li>Extra sauce</li>
+                    <li>Sesame seeds</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Cook the rice according to the instructions on the package. Wash the sushi rice thoroughly until the water runs clear. Boil the rice according to the instructions on the package or use our detailed technology for cooking rice for sushi.</p>
+                <li>Step 2</li>
+                <p>After cooking, add rice dressing (rice vinegar, sugar, water), mix well and let cool.</p>
+                <li>Step 3</li>
+                <p>Fry peeled shrimp in a pan, add 1 tbsp. l. soy sauce and unagi sauce. Simmer for 2 minutes.</p>
+                <li>Step 4</li>
+                <p>Peel the avocado and cut it into cubes, cherry tomatoes – in half. Boil the egg, peel and cut in half.</p>
+                <li>Step 5</li>
+                <p>Form a bowl. Place seasoned rice on the bottom of a deep bowl and pour teriyaki sauce over it. Place the shrimp, avocado, cherry tomatoes and egg on top one by one.</p>
+                <li>Step 6</li>
+                <p>Cut the nori into strips, sprinkle with sesame seeds and add sauce if desired.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

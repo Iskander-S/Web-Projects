@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Dessert-section.html">
+                <h1>Dessert</h1>
+            </a>
+            <a href="Chocolate-Guinness-Cake.html">
+                <h2>Chocolate Guinness Cake</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 26 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Chocolate-guiness-cake-2.jpg" alt="Chocolate Guinness Cake">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 45 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>“Lovely day for a Guinness!” as the saying goes. We couldn’t agree more, especially in the form of this decadent Guinness chocolate cake. Guinness beer, the iconic Irish dry stout, is full of coffee, chocolate and malt flavors. It’s got a great flavor profile to bring out all the natural flavors in a chocolate cake. And in this recipe, the robust cake is topped with a complementary cream cheese frosting that’s light, fluffy and reminiscent of a head of beer. This Guinness chocolate cake is the perfect St. Patric’s Day dessert through and through.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: One 9-inch cake or 12 servings</h2>
+                    <h2>For the Cake</h2>
+                    <li>Butter, for the pan</li>
+                    <li>1 cup Guinness stout</li>
+                    <li>10 tablespoons (1 stick plus 2 tablespoons) unsalted butter (see Tip)</li>
+                    <li>¾ cup unsweetened cocoa</li>
+                    <li>2 cups superfine sugar</li>
+                    <li>¾ cup sour cream</li>
+                    <li>2 large eggs</li>
+                    <li>1 tablespoon vanilla extract</li>
+                    <li>2 cups all-purpose flour</li>
+                    <li>2 ½ teaspoons baking soda</li>
+                    <h2>For the Topping</h2>
+                    <li>1 ¼ cups confectioners' sugar</li>
+                    <li>8 ounces cream cheese at room temperature</li>
+                    <li>½ cup heavy cream</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>For the cake: Heat oven to 350 degrees. Butter a 9-inch springform pan and line with parchment paper. In a large saucepan, combine Guinness and butter. Place over medium-low heat until butter melts, then remove from heat. Add cocoa and superfine sugar, and whisk to blend.</p>
+                <li>Step 2</li>
+                <p>In a small bowl, combine sour cream, eggs and vanilla; mix well. Add to Guinness mixture. Add flour and baking soda, and whisk again until smooth. Pour into buttered pan, and bake until risen and firm, 45 minutes to 1 hour. Place pan on a wire rack and cool completely in pan.</p>
+                <li>Step 3</li>
+                <p>For the topping: Using a food processor or by hand, mix confectioners' sugar to break up lumps. Add cream cheese and blend until smooth. Add heavy cream, and mix until smooth and spreadable.</p>
+                <li>Step 4</li>
+                <p>Remove cake from pan and place on a platter or cake stand. Ice top of cake only, so that it resembles a frothy pint of Guinness.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Sushi-section.html">
+                    <h1>Sushi</h1>
+                </a>
+            <a href="Futomaki.html">
+                <h2>Futomaki <br> 太巻き</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Futomaki.jpg" alt="Futomaki">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 40 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>In Japan, sushi usually implies the traditional style “nigiri sushi”, which consists of raw fish on top of the rice pillow. However, when we say sushi roll, it typically refers to Futomaki (太巻き)—a thick and fat sushi roll with colorful fillings. Futomaki (太巻き) is the most classic sushi roll in Japan. Therefore, when you say Maki Sushi (巻き寿司) or sushi roll, it implies Futomaki. With its attractive look, Futomaki is a popular sushi roll for festivity events, holidays, potluck, or bento.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 12 rolls</h2>
+                    <li>3 Japanese or Persian cucumber (12 oz, 339 g)</li>
+                    <li>6 avocados (36 oz, 1,020 g)</li>
+                    <li>1.5 lemon (optional)</li>
+                    <li>6 sheets nori (dried laver seaweed) (cut in half crosswise)</li>
+                    <li>9.75 cups sushi rice (cooked and seasoned) (¾ cup (110 g) sushi rice per roll)</li>
+                    <li>24 pieces Homemade Shrimp Tempura</li>
+                    <li>6 Tbsp tobiko (flying fish roe)</li>
+                    <li>Unagi (freshwater eel) fillet (optional)</li>                    
+                    <h2>For the Vinegared Water for Dipping Hands (Tezu)</h2>
+                    <li>0.75 cup water</li>
+                    <li>6 tsp rice vinegar (unseasoned)</li>
+                    <h2>For the Toppings</h2>
+                    <li>Homemade Spicy Mayo</li>
+                    <li>Unagi (eel) sauce</li>
+                    <li>Toasted black sesame seeds</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Cut tamagoyaki into long, thin strips. Store in the refrigerator until it’s ready to use.</p>
+                <li>Step 2</li>
+                <p>Prepare sushi rice by rinsing the rice well and discarding any excess water. Put the rice in a rice cooker and add cool water. Place the kombu on top and allow the rice to soak for 20 to 30 minutes.</p>
+                <li>Step 3</li>
+                <p>Make the sushi vinegar by combining rice vinegar, salt, and sugar in a small saucepan. Bring it to a boil over medium-high heat. Whisk until the sugar is completely dissolved or use one of our artisan sushi vinegars. </p>
+                <li>Step 4</li>
+                <p>Transfer the cooked rice onto the sushi oke and spread evenly to allow the rice to cool faster. Pour the hot sushi vinegar over the rice. Use a rice paddle to gently combine the ingredients. Use a hair dryer to help cool the rice which helps prevent it from becoming mushy.</p>
+                <li>Step 5</li>
+                <p>Heat the unagi in the oven. Set the oven to grill (290°C/550°F) and preheat for three minutes. Line a baking sheet with aluminium foil and coat with oil to prevent sticking. Place the unagi on the baking sheet and grill for six minutes. Allow to slightly cool and cut into four long strips.</p>
+                <li>Step 6</li>
+                <p>Roughly chop the rocket or watercress, and set aside.</p>
+                <li>Step 7</li>
+                <p>Cut off the ends of the cucumber and cut lengthways into quarters. Remove any seeds.</p>
+                <li>Step 8</li>
+                <p>Pour the contents of the sakura denbu or furikake package into a small bowl. Set aside.</p>
+                <li>Step 9</li>
+                <p>Mix the water and rice vinegar in a small bowl to create vinegared water for your fingers to prevent sticking while assembling the futomaki.</p>
+                <li>Step 10</li>
+                <p>Place a nori sheet, shiny side down, on a bamboo sushi mat. Separate the prepared sushi rice in half. After dipping your fingers in the vinegared water, place one-half of the rice on the nori and spread evenly. Leave a 1.5cm strip along the top of the nori.</p>
+                <li>Step 11</li>
+                <p>Place the cucumber at the bottom of the nori. Place the sakura denbu and shiitake towards the top to prevent them from falling while rolling the sushi. Add all other ingredients on the bottom half of the nori, including the unagi, kanpyo, and rocket or watercress.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

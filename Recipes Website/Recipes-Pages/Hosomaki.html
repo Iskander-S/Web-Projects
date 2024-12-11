@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Sushi-section.html">
+                    <h1>Sushi and Rolls</h1>
+                </a>
+            <a href="Hosomaki.html">
+                <h2>Hosomaki <br> 細巻き</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Hosomaki.jpg" alt="Hosomaki">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 40 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+            <p>First of all, what’s sushi? Sushi is any dish made with vinegared rice (we call it “Sushi Rice“) combined with other ingredients like seafood and vegetables. Some people think sushi means raw fish, but that’s not entirely true. When the sushi rice is wrapped in nori seaweed and rolled, it is a sushi roll. In Japan, we call it makizushi or maki sushi (巻き寿司). Hosomaki (細巻き) – Thin rolls (1 inch in diameter) with nori on the outside, containing 1 ingredient </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 10 rolls</h2>
+                    <h2>For the Sushi Rice</h2>
+                    <li>2¼ cups uncooked Japanese short-grain white rice (3 rice cooker cups, 450 g; cook the rice ahead of time using my Sushi Rice recipe)</li>
+                    <li>2¼ cups water (for cooking the rice)</li>
+                    <li>1 piece kombu (dried kelp) (5 g; 2 x 2 inches or 5 x 5 cm; for cooking the rice; optional, but it gives a nice aroma!)</li>
+                    <li>⅓ cup rice vinegar (unseasoned) (if you substitute seasoned bottled sushi vinegar, skip the sugar and salt)</li>
+                    <li>3 Tbsp sugar (skip if using bottled sushi vinegar)</li>
+                    <li>1½ tsp Diamond Crystal kosher salt (skip if using bottled sushi vinegar)</li>
+                    <h2>For the Nori and the Filling Options</h2>
+                    <li>5 sheets nori (dried laver seaweed)</li>
+                    <li>1 Japanese or Persian cucumber (yields 8 rolls)</li>
+                    <li>7 oz sashimi-grade tuna (block; yields 12 rolls)</li>
+                    <li>1 box natto (fermented soybean) (yields 2 rolls)</li>
+                    <h2>For the Tezu (Finger Dipping Water)</h2>
+                    <li>¼ cup water</li>
+                    <li>2 tsp rice vinegar (unseasoned)</li>
+                    <h2>For Serving</h2>
+                    <li>Soy sauce</li>
+                    <li>Wasabi (optional)</li>
+                    <li>Sushi ginger (gari) (optional; you can make my homemade Sushi Ginger)</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Prepare the rice in a rice cooker. Cover the cooked rice with a damp cloth or plastic wrap to prevent it from drying out until you’re ready to use it.</p>
+                <li>Step 2</li>
+                <p>Cut off the ends of the cucumber and cut it lengthways to create two halves. Cut each half again to create four strips. Use a knife to remove the seeds, then cut each strip again for a total of eight cucumber strips.</p>
+                <li>Step 3</li>
+                <p>Cut the tuna into 1 cm slices, then again into 1 cm thick strips.</p>
+                <li>Step 4</li>
+                <p>Prepare the natto. You can choose to add the seasoning that came with it or add a splash of soy sauce.</p>
+                <li>Step 5</li>
+                <p>Cut a sheet of nori in half and place it on a bamboo mat with the shiny side down.</p>
+                <li>Step 6</li>
+                <p>Moisten your fingers in the vinegared hand-dipping water to prevent the rice from sticking to your hands.</p>
+                <li>Step 7</li>
+                <p>Take a scoop of sushi rice (about 60g) and put it on the left-centre of the nori. Leave a space gap along the top edge. Use your fingers to spread the rice evenly across the nori.</p>
+                <li>Step 8</li>
+                <p>Place the filling – cucumber, tuna, and natto - in the middle of the rice. Use your fingers to hold in the filling as you carefully roll the sushi into a tight role. Use a wet knife to cut the roll in half. Then cut each half into three pieces. Serve the sushi rolls with wasabi, soy sauce, and pickled ginger.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

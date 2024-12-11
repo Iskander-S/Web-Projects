@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/login-style.css">
+    <title>Log In & Sign Up Page</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="signUpForm">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="https://www.google.kz/?hl=ru" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.facebook.com" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/home" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <div class="input-control">
+                    <input id="username" name="username" type="text" placeholder="Name">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <input id="email" name="email" type="email" placeholder="Email">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <input id="password" name="password" type="password" placeholder="Password">
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+            
+        </div>
+        <div class="form-container sign-in">
+            <form id="signInForm">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="https://www.google.kz/?hl=ru" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="https://www.facebook.com" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/home" class="icon"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <div class="input-control">
+                    <input id="signInEmail" type="email" placeholder="Email">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <input id="signInPassword" type="password" placeholder="Password">
+                    <div class="error"></div>
+                </div>
+                <a href="#">Forget Your Password?</a>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/Login-script.js"></script>
+</body>
+
+</html>

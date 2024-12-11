@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <h1>RECIPE OF THE DAY</h1>
+            <a href="Nam-Prik-Ong-Lasagna.html">
+                <h2>Nam Prik Ong Lasagna</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 23 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Lasagna.png" alt="Nam Prik Ong Lasagna">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: About 1 hour</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>There are many unexpected overlaps between Thai and Italian cuisines, and Justin Pichetrungsi — chef and owner of Anajak Thai in Los Angeles — embraces several of them in this cheesy, deeply savory lasagna. Borrowing flavors from bold, meaty nam prik ong, a Thai dip, he turns to soy sauce, shrimp paste, fermented soybean paste and spicy sambal to amp up this lasagna’s beefy bolognese layer. The ricotta filling is intensified by chile crisp and fresh cilantro, and there’s plenty of Parmesan and mozzarella throughout, including in the crisp and cheesy golden top. Brightened with both Thai basil and Italian basil, it’s a far cry from the lasagnas Pichetrungsi grew up eating in Southern California, straight from the frozen section of Costco. This lasagna will shake up any dinner party or holiday spread. </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 6 to 9 servings</h2>
+                    <h2>FOR THE NAM PRIK ONG BOLOGNESE</h2>
+                    <li>5 cups cherry tomatoes</li>
+                    <li>¼ cup vegetable oil</li>
+                    <li>1 pound ground beef chuck</li>
+                    <li>1 cup thinly sliced white onion (from ½ a medium onion)</li>
+                    <li>1 packed cup gai lan (Chinese broccoli) leaves</li>
+                    <li>4 tablespoons minced garlic</li>
+                    <li>1 cup Thai or Italian basil leaves (preferably a mix), plus more for garnishing</li>
+                    <li>4 tablespoons sambal</li>
+                    <li>2 tablespoons red curry paste</li>
+                    <li>5 teaspoons yellow fermented bean paste (preferably a Thai brand) or miso</li>
+                    <li>2 teaspoons thin soybean sauce (preferably a Thai brand) or Japanese white soy sauce</li>
+                    <li>1 teaspoon Maggi seasoning, plus more for garnishing</li>
+                    <li>1 teaspoon white pepper</li>
+                    <li>2 tablespoons shrimp paste or fish sauce</li>
+                    <li>2 cups beef stock or water</li>
+                    <li>2 large egg yolks</li>
+                    <h2>FOR THE CHEESE FILLING</h2>
+                    <li>1 cup full-fat ricotta</li>
+                    <li>Leaves and tender stems from 1 bunch cilantro, finely chopped</li>
+                    <li>2 tablespoons store-bought or homemade chile crisp</li>
+                    <li>1 tablespoon chicken bouillon powder</li>
+                    <li>1 tablespoon olive oil</li>
+                    <h2>FOR THE ASSEMBLY</h2>
+                    <li>Olive oil</li>
+                    <li>1 (8-ounce) box no-boil lasagna noodles</li>
+                    <li>1 pound fresh mozzarella, sliced into rounds (about 4 cups)</li>
+                    <li>1 cup shredded Parmesan</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Make the Bolognese: Heat a large pot over high until very hot, 2 to 3 minutes. Toss in the cherry tomatoes and cook until blistered and charred, about 3 minutes, moving the tomatoes as little as possible to avoid puncturing them, which can stop the charring process. After the tomatoes are charred a bit, give them a good stir and transfer, along with any juices, to a bowl; set aside. (There will be charred and caramelized bits on the bottom of the pot.)</p>
+                <li>Step 2</li>
+                <p>Add the vegetable oil to the same pot and turn the heat down to medium. Add the ground beef, onions, gai lan leaves and garlic, and cook, breaking up the beef and combining it with the other ingredients while scraping up the brown bits on the bottom of the pot, until the beef is cooked through and no longer pink, about 8 minutes.</p>
+                <li>Step 3</li>
+                <p>Add the charred tomatoes, basil, sambal, red curry paste, bean paste, soy sauce, Maggi seasoning and white pepper. Cook for 5 minutes, stirring occasionally. Add the shrimp paste and let the mixture cook down at a rapid simmer for another 5 to 7 minutes, adjusting the heat as necessary to prevent splatter or the sauce sticking to the bottom of the pot.</p>
+                <li>Step 4</li>
+                <p>Add the beef stock, bring the mixture to a boil, then boil for 7 to 10 minutes; the liquid will reduce and the mixture will thicken. Turn off the heat and stir in the egg yolks to bind the sauce together. At this point, it should look glossy and taste like a rich but somewhat loose Bolognese, with notes of shrimp and curry. Set aside to cool.</p>
+                <li>Step 5</li>
+                <p>While the Bolognese is cooling, make the cheese filling: To a medium bowl, add the ricotta, cilantro, chile crisp, bouillon powder and olive oil; mix until well combined.</p>
+                <li>Step 6</li>
+                <p>Assemble the lasagna: Heat oven to 350 degrees. Grease the bottom of an 8-by-8-inch baking pan with olive oil. Add a thin layer of Bolognese to cover the bottom of the pan. Then add a layer of no-boil noodles, breaking the noodles as needed to fit. Spread more Bolognese evenly on top of the noodles, followed by a thin layer of the cheese filling. (Dollop it on and spread as evenly as possible; there will be a bit of mixing with the sauce.). Repeat this layering process — noodles, Bolognese, cheese — until about halfway up the side of the pan. Then add half the Parmesan and half the mozzarella cheese in an even layer. Continue the layering process as before, until you reach the top of the pan (see Tip). The final layer of noodles should be topped with the remaining mozzarella and Parmesan.</p>
+                <li>Step 7</li>
+                <p>Place the pan on a sheet tray to catch any overflowing cheese, and bake for 1 hour, uncovered, until golden, with crispy edges. Let cool 15 to 30 minutes before slicing. Drizzle with a little olive oil and Maggi seasoning before serving, and garnish with more basil.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

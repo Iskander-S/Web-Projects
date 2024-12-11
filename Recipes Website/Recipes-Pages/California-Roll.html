@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Sushi-section.html">
+                <h1>Sushi and Rolls</h1>
+            </a>
+            <a href="California-Roll.html">
+                <h2>California Roll カリフォルニアロール</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 30 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/California-Roll.jpg" alt="California Roll">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 1,5 hours</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>What was the first sushi roll that you tried at a Japanese restaurant? For many of you, it might be California Roll (カリフォルニアロール), as it is probably by far the most popular style of sushi in the U.S. Learn how to make delicious, perfect rolls every time at home by following my step-by-step guide and photos.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 8 rolls</h2>
+                    <h2>For the Sushi Rice</h2>
+                    <li>2¼ cups uncooked Japanese short-grain white rice (3 rice cooker cups, 540 ml; yields 6⅔ cups or 990 g of cooked rice)</li>
+                    <li>2¼ cups water (540 ml)</li>
+                    <li>1 piece kombu (dried kelp) (5 g; 2 x 2 inches, 5 x 5 cm per piece; optional, for a nice aroma!)</li>
+                    <li>⅓ cup seasoned rice vinegar (sushi vinegar)</li>
+                    <h2>For the Filling</h2>
+                    <ul>
+                    <li>5 oz real or imitation crabmeat (1 package (154 g each) of Kibun crab-flavored surimi; or use canned or freshly cooked crabmeat)</li>
+                    <li>1 Tbsp Japanese Kewpie mayonnaise</li>
+                    <li>2 Japanese or Persian cucumbers</li>
+                    <li>1 avocado (large)</li>
+                    <li>½ lemon (for the avocado)</li>
+                    <h2>For the Sushi Rolls</h2>
+                    <li>4 sheets nori (dried laver seaweed)</li>
+                    <li>4 Tbsp toasted white sesame seeds</li>
+                    <li>Toppings of your choice (try ikura (salmon roe) or yuzu-flavored tobiko (flying fish roe); optional)</li>
+                    <h2>For the Homemade Sushi Vinegar (optional)</h2>
+                    <li>⅓ cup rice vinegar (unseasoned)</li>
+                    <li>3 Tbsp sugar</li>
+                    <li>1½ tsp Diamond Crystal kosher salt</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Season the sushi rice with the rice vinegar, fanning and stirring until room temperature.</p>
+                <li>Step 2</li>
+                <p>On a rolling mat, place one sheet of nori with the rough side facing upwards.</p>
+                <li>Step 3</li>
+                <p>Wet your hands and grab a handful of rice and place it on the nori. Spread the rice evenly throughout the nori without mashing the rice down. Season rice with a pinch of sesame seeds, if using, then flip it over so the nori is facing upwards.</p>
+                <li>Step 4</li>
+                <p>Arrange, in a horizontal row 1 inch (2.5 cm) from the bottom, the crab followed by a row of avocado and a row of cucumber.</p>
+                <li>Step 5</li>
+                <p>Grabbing both nori and the mat, roll the mat over the filling so the extra space at the bottom touches the other side, squeezing down to make a nice tight roll. Squeeze down along the way to keep the roll from holding its shape.</p>
+                <li>Step 6</li>
+                <p>Transfer the roll onto a cutting board. Rub a knife on a damp paper towel before slicing the roll into six equal portions.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+   
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

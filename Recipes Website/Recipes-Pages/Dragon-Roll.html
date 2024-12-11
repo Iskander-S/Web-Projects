@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <a href="Sushi-section.html">
+                    <h1>Sushi and Rolls</h1>
+                </a>
+            <a href="Dragon-Roll.html">
+                <h2>Dragon Roll</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 1 December 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Dragon-Roll-2.jpeg" alt="Dragon Roll">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 40 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>   
+            </div>
+            <div class="hero-content">
+                <p>Dragon Roll ドラゴンロール is another popular sushi roll served at American-style sushi restaurants and buffet joints. It’s not traditional sushi you can find in Japan, but I can see why this imaginative sushi is such a favorite. The combo of creamy avocado and crunchy shrimp tempura make the perfect match to the tenderly moist vinegared rice. It’s so delicious that I can devour the entire roll on my own. Luckily, making dragon roll at home is easier than it looks.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 12 rolls</h2>
+                    <li>3 Japanese or Persian cucumber (12 oz, 339 g)</li>
+                    <li>6 avocados (36 oz, 1,020 g)</li>
+                    <li>1.5 lemon (optional)</li>
+                    <li>6 sheets nori (dried laver seaweed) (cut in half crosswise)</li>
+                    <li>9.75 cups sushi rice (cooked and seasoned) (¾ cup (110 g) sushi rice per roll)</li>
+                    <li>24 pieces Homemade Shrimp Tempura</li>
+                    <li>6 Tbsp tobiko (flying fish roe)</li>
+                    <li>Unagi (freshwater eel) fillet (optional)</li>                    
+                    <h2>For the Vinegared Water for Dipping Hands (Tezu)</h2>
+                    <li>0.75 cup water</li>
+                    <li>6 tsp rice vinegar (unseasoned)</li>
+                    <h2>For the Toppings</h2>
+                    <li>Homemade Spicy Mayo</li>
+                    <li>Unagi (eel) sauce</li>
+                    <li>Toasted black sesame seeds</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Cut the cucumber lengthways and then again to form quarters. Remove any seeds from the centre. Cut each quarter in half lengthways again.</p>
+                <li>Step 2</li>
+                <p>Cut the avocado in half lengthways and remove the pit. Remove the skin from the avocado and slice widthways. </p>
+                <li>Step 3</li>
+                <p>Use the side of the knife to gently press the avocado slices until they are about the length of the nori. Squeeze lemon over the avocado to prevent discoloration.</p>
+                <li>Step 4</li>
+                <p>Wrap a bamboo mat with plastic wrap. Place half of the nori sheet, shiny side down, onto the mat. Dip your hands in the vinegar water to prevent sticking and spread approximately 90g of rice across the nori.</p>
+                <li>Step 5</li>
+                <p>Flip the nori so that the rice is against the bamboo mat. Add the cucumber strips, shrimp tempura, and tobiko to the bottom edge of the nori sheet. If you are adding unagi, add it to the sheet now.</p>
+                <li>Step 6</li>
+                <p>Starting from the bottom edge, begin rolling the nori sheet over the filling to create a tight roll. Gently squeeze the roll with the bamboo mat.</p>
+                <li>Step 7</li>
+                <p>Using the side of the knife, carefully place the avocado on top of the sushi roll. Wrap the roll in plastic wrap and cover with the bamboo mat. Gently squeeze the roll to help the avocado slices adhere to the sushi.</p>
+                <li>Step 8</li>
+                <p>Remove the plastic wrap and cut the sushi roll into eight pieces with a sharp knife. Top each section with tobiko and a sprinkling of black sesame seeds. Serve unagi sauce on the side for dipping if desired.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

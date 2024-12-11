@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Dessert-section.html">
+                <h1>Dessert</h1>
+            </a>
+            <a href="Coconut-Caramel-Tart.html">
+                <h2>Coconut Caramel Tart</h2>
+            </a>
+            <h4>By Iskander</h4>
+            <p>Updated 28 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Coconut-Caramel-Tart.jpeg" alt="Coconut Caramel Tart">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 45 minutes</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>Eating this tart is like biting into a grown-up Girl Scout cookie. A crisp chocolate shortbread shell is filled with a creamy, slightly nutty frangipane, and topped with coconut caramel, drizzled chocolate and flaky sea salt. This recipe is formatted for a 9-inch pie plate but can easily be amended to fit a 10-inch tart pan with a removable bottom without any difference in bake times. While making your own caramel may seem like a daunting task, the “wet” method of dissolving sugar in a little water before caramelizing it is approachable and foolproof. Take care to keep an eye on its color to ensure it doesn’t burn and end up bitter. Add the cream when the caramel is amber and you’ll be in for a real treat.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 8 servings</h2>
+                    <h2>For the Chocolate Crust</h2>
+                    <li>1 cup/128 grams all-purpose flour, plus more for rolling</li>
+                    <li>½ cup/56 grams powdered sugar</li>
+                    <li>¼ cup/20 grams Dutch-processed cocoa powder</li>
+                    <li>1 teaspoon kosher salt (such as Diamond Crystal) or ½ teaspoon fine salt</li>
+                    <li>6 tablespoons/85 grams cold unsalted butter, cut into cubes</li>
+                    <li>1 large egg, beaten, at room temperature</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <h2>For the Coconut Filling</h2>
+                    <li>8 tablespoons/114 grams unsalted butter, at room temperature</li>
+                    <li>½ cup/100 grams granulated sugar</li>
+                    <li>2 large eggs, at room temperature</li>
+                    <li>½ cup/60 grams almond flour</li>
+                    <li>½ cup/52 grams unsweetened shredded coconut, toasted (see Tip)</li>
+                    <li>1 tablespoon all-purpose flour</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <li>½ teaspoon kosher salt (such as Diamond Crystal) or ¼ teaspoon fine salt</li>
+                    <h2>For the Caramel Topping</h2>
+                    <li>¾ cup/150 grams granulated sugar</li>
+                    <li>½ cup/120 grams full-fat coconut milk or heavy cream</li>
+                    <li>1 cup/104 grams unsweetened coconut, toasted (see Tip)</li>
+                    <li>4 tablespoons/56 grams unsalted butter</li>
+                    <li>1 teaspoon kosher salt (such as Diamond Crystal) or ½ teaspoon fine salt</li>
+                    <li>1 teaspoon vanilla extract</li>
+                    <li>2 ounces/58 grams semisweet chocolate, chopped (⅓ cup)</li>
+                    <li>Flaky sea salt, for sprinkling</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Make the crust: In a food processor, pulse together the flour, powdered sugar, cocoa and salt until fully combined. Add the cold cubed butter and pulse about 10 times, until the mixture resembles wet sand. Add the beaten egg and vanilla and continue to pulse until a ball begins to form around the blade. (See Tip to prepare by hand.)</p>
+                <li>Step 2</li>
+                <p>Form the dough into a disk about an inch thick, wrap in plastic wrap and refrigerate for at least 30 minutes or up to overnight.</p>
+                <li>Step 3</li>
+                <p>On a lightly floured surface, use a lightly floured rolling pin to roll the dough into a 12-inch round. Press the dough evenly into a 9-inch pie plate (or 10-inch tart pan) and freeze until very firm, about 20 minutes. Trim the edges flush with the rim of the pan and use a fork to dock the dough by poking holes all over the bottom.</p>
+                <li>Step 4</li>
+                <p>Heat oven to 375 degrees. Bake the crust for 15 minutes, until fragrant and slightly dried out. Cool completely to room temperature, and lower the oven to 350 degrees.</p>
+                <li>Step 5</li>
+                <p>Make the coconut filling: In a large bowl with a hand mixer or with a stand mixer, beat the butter and sugar on medium speed until smooth, about 2 minutes. Add the eggs and continue to beat another minute until the mixture is light and fluffy. Add the almond flour, coconut, all-purpose flour, vanilla and salt and beat for another minute, until fully incorporated. Spread the mixture evenly into the cooled crust and bake for 20 to 25 minutes, until slightly puffed and a toothpick inserted into the center comes out clean. Let cool at room temperature while you prepare the coconut caramel.</p>
+                <li>Step 6</li>
+                <p>Make the caramel: In a heavy saucepan over medium heat, stir the sugar and 2 tablespoons of water and cook until the sugar dissolves. Increase the heat to medium-high and boil, without stirring, but swirling the pan occasionally. Carefully brush the sides of the pan with water to dissolve any sugar crystals that may be sticking. Continue cooking for 10 to 12 minutes, until the bubbles begin to slow down and the sugar gradually turns an amber color, registering about 320 degrees on a candy thermometer.</p>
+                <li>Step 7</li>
+                <p>Slowly add the coconut milk and stir carefully, as it will bubble rapidly when added. Continue to cook the caramel another 7 to 10 minutes, until visibly thickened and glossy. It should register 250 degrees on a candy thermometer. Remove from the heat, add the coconut, butter, salt and vanilla, and stir to combine. Let cool for about 10 minutes before spreading the caramel over the top of the baked tart, then let cool completely.</p>
+                <li>Step 8</li>
+                <p>Melt the chocolate by stirring in a bowl set over a saucepan of simmering water. Alternatively, place the chocolate in a microwave-safe bowl and microwave for about 30 seconds. Stir, then microwave in 15-second bursts, stirring after each interval, until completely melted. Drizzle the melted chocolate over the cooled tart, top with flaky salt, slice and serve. The tart will keep, covered, at room temperature for 2 to 3 days, and up to 4 days in the refrigerator. If it’s been refrigerated, let it stand at room temperature for 15 minutes before slicing.</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/recipe-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipes Website</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="logo">
+            <img src="../images/logo-removebg-preview.png" alt="Logo Image">
+        </a>
+        <div class="navlist">
+            <ul class="navlist">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Recipe-Categories.html">Categories</a></li>
+                <li><a href="Recipe-list.html">Recipes</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="Login.html">
+                <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
+                <button class="btn" id="Subscribe" onclick="register()">Subscribe Now and Save</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+            <a href="Main-dishes-section.html">
+                <h1>Main Dishes</h1>
+            </a>
+            <a href="Oven-Seared-Salmon.html">
+                <h2>Oven-Seared Salmon With Corn and Tomatoes</h2>
+            </a>
+            <p>Updated 26 November 2024</p>
+            </div>
+            <div class="hero-image">
+                <img src="../images/Slider/Oven-Seared-Salmon.jpg" alt="Oven-Seared Salmon With Corn and Tomatoes">
+            </div>
+            <div class="hero-desc">
+                <hr>
+                <ul>
+                    <li>Total Time: 1,5 hours</li>
+                </ul>
+                <div class="rating-box">
+                    <h6>Do you like this recipe?</h6>
+                    <div class="stars" id="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="counter">
+                        <p>Number of Ratings:</p>
+                        <label id="countLabel">0</label>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p>This one-pan dinner pairs browned fish with a colorful salad of charred corn, tomatoes, scallions, herbs and lime, proving that summer cooking is best when you get out of the way of the ingredients. The salmon develops a crisp crust without requiring a sear on the stovetop thanks to a light coating of mayonnaise and the direct scorch of the broiler. You won’t taste the mayonnaise; instead, it’s there to caramelize the salmon’s surface while insulating the delicate flesh. Corn kernels cook alongside just long enough to plump, sweeten and char in spots. The salmon and salad are a meal unto themselves, or you could accompany them with quinoa or garlic bread.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="preparation">
+
+        <div class="containers">
+            <div class="ingredients">
+                <hr>
+                <h1>INGREDIENTS</h1>
+                <ul>
+                    <h2>Yield: 4 servings</h2>
+                    <li>4 cups fresh corn kernels (from about 4 ears)</li>
+                    <li>2 tablespoons extra-virgin olive oil</li>
+                    <li>Kosher salt and black pepper</li>
+                    <li>4 (6- to 8-ounce) skin-on salmon fillets, patted dry</li>
+                    <li>1½ tablespoons mayonnaise</li>
+                    <li>1 pint cherry tomatoes, halved</li>
+                    <li>1 lime</li>
+                    <li>3 scallions, thinly sliced</li>
+                    <li>½ cup basil or cilantro leaves</li>
+                </ul>
+            </div>
+            <div class="preparation">
+                <hr>
+                <h1>PREPARATION</h1>
+                <ul>
+                <li>Step 1</li>
+                <p>Heat the broiler to high and set a rack in the upper third of the oven. On a sheet pan, toss the corn with 1 tablespoon oil and season with salt and pepper. Push to one side. Add the salmon to the empty side of the pan, skin-side down. Season the salmon all over with salt and pepper, then coat the tops with a thin layer of mayonnaise. Broil, stirring the corn occasionally, until the salmon is opaque with a browned crust and the corn is bright in color and browned in spots, 6 to 8 minutes.</p>
+                <li>Step 2</li>
+                <p>To the corn, add the tomatoes, scallions and remaining tablespoon oil. Zest the lime on top of the vegetables, then squeeze half the lime on top; cut the remaining half into wedges for serving. Stir to combine and season to taste with salt and pepper, then top with the basil leaves. Serve the salad alongside the salmon, with a squeeze of lime as you like. (After cooking, wedge your spatula between the salmon and skin to easily remove the skin.)</p>
+            </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Cooking Website</h4>
+                    <p>Your go-to site for delicious recipes, easy cooking tips, and meal inspiration. Explore, cook, and enjoy!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>recipes</h4>
+                    <ul>
+                        <li><a href="Pasta-section.html">Pasta</a></li>
+                        <li><a href="Sushi-section.html">Sushi</a></li>
+                        <li><a href="Dinner-section.html">Dinner</a></li>
+                        <li><a href="Dessert-section.html">Desserts</a></li>
+                        <li><a href="Main-dishes-section.html">Main Dishes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/home"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Our Address: Almaty,<br> Al-Farabi st, 50/2</p>
+                </div>
+            </div>
+        </div>
+   </footer>
+
+   <script src="../js/recipe-sript.js"></script>
+</body>
+</html>
